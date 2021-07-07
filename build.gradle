@@ -1,4 +1,7 @@
-plugins { id 'java' }
+plugins {
+    id 'application'
+    id 'com.dua3.javafxgradle7plugin' version '0.0.9'
+}
 group 'ucf.assignments'
 version '1.0-SNAPSHOT'
 
@@ -10,3 +13,10 @@ dependencies {
 }
 
 test { useJUnitPlatform() }
+
+javafx {
+    version = "16"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+mainClassName = 'ucf.assignments.App'
