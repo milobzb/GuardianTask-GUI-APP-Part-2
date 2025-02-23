@@ -1,4 +1,4 @@
-# 📝 To-Do List GUI App - Part 2 (Final Version)
+# 📝 GuardianTask GUI App - Part 2 (Final Version)
 
 This is the **final version** of my **To-Do List GUI Application**, expanding upon the initial foundation to introduce all planned functionality and a complete user experience.
 
